@@ -10,9 +10,8 @@ const store = new Vuex.Store({
   },
   mutations: {
     MARKDOWN_SUCCESS (state, data) {
-        window.console.log('111111'+data.old, data.new)
         state.rawHtml = data.old
-        state.renderHtml = data.new
+        // state.renderHtml = data.new
     }
   },
   getters: {
