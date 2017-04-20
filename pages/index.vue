@@ -10,6 +10,11 @@
           {{ user.name }}
         </nuxt-link>
       </li>
+      <li>
+      <nuxt-link :to="{ name: 'editor'}">
+          编辑
+      </nuxt-link>
+      </li>
     </ul>
   </section>
 </template>
